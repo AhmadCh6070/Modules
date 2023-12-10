@@ -37,7 +37,6 @@
  }
  Dogs.sort()
  Dogs.reverse()
- console.log(Dogs)
  const ol3 = document.createElement("ul")
  for(const i of Dogs){
      ol3.innerHTML += `<li>${i}</li>`
@@ -62,7 +61,7 @@
  console.log(numList)
 
  //Task#5
- 
+
  const uList = []
  while (true) {
      let num = parseInt(prompt("Enter a number(must be unique):"));
