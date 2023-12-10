@@ -61,7 +61,8 @@
  numList.sort((a,b) => b-a)
  console.log(numList)
 
-Task#5
+ //Task#5
+ 
  const uList = []
  while (true) {
      let num = parseInt(prompt("Enter a number(must be unique):"));
